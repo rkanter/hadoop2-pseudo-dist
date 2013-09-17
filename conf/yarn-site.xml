@@ -33,11 +33,11 @@
   </property>
   <property>
     <name>yarn.nodemanager.local-dirs</name>
-    <value>/tmp/pseudo-dist/yarn/local</value>
+    <value>/Users/rkanter/dev/mr2-pseudo-dist/dirs/yarn/local</value>
   </property>
   <property>
     <name>yarn.nodemanager.log-dirs</name>
-    <value>/tmp/pseudo-dist/yarn/log</value>
+    <value>/Users/rkanter/dev/mr2-pseudo-dist/dirs/yarn/log</value>
   </property>
   <property>
       <name>yarn.log-aggregation-enable</name>

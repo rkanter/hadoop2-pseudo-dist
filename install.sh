@@ -10,7 +10,7 @@ LOC=$HADOOP_ARCHIVE_LOCATION
 [[ -z $LOC ]] && { echo "Location is empty" ; exit 1; }
 
 # delete remnants from previous setup 
-rm -rf /tmp/pseudo-dist/hdfs/*
+rm -rf /Users/rkanter/dev/mr2-pseudo-dist/dirs
 rm -rf $VERSION*
 
 # cp dist tar ball
@@ -26,3 +26,6 @@ cd $VERSION
 chmod +x *.sh sbin/*.sh
 ./hadoop-dev-setup.sh
 cd ..
+
+# start hadoop
+./start.sh

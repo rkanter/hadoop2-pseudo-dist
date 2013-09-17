@@ -19,7 +19,7 @@
 <configuration>
   <property>
     <name>dfs.name.dir</name>
-    <value>/tmp/pseudo-dist/hdfs/name</value>
+    <value>/Users/rkanter/dev/mr2-pseudo-dist/dirs/hdfs/name</value>
     <description>
        specify this so that running 'hadoop namenode -format'
        formats the right dir
@@ -27,7 +27,7 @@
   </property>
   <property>
     <name>dfs.data.dir</name>
-    <value>/tmp/pseudo-dist/hdfs/data </value>
+    <value>/Users/rkanter/dev/mr2-pseudo-dist/dirs/hdfs/data </value>
   </property>
   <property>
     <name>dfs.replication</name>
