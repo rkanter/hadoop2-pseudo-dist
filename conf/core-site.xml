@@ -31,4 +31,14 @@
     <name>hadoop.skip.worker.version.check</name>
     <value>true</value>
   </property>
+
+  <property>
+    <name>hadoop.proxyuser.rkanter.hosts</name>
+    <value>*</value>
+  </property>
+
+  <property>
+      <name>hadoop.proxyuser.rkanter.groups</name>
+      <value>*</value>
+  </property>
 </configuration>
