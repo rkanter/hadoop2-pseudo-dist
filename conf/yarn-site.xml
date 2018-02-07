@@ -40,6 +40,10 @@
     <value>/Users/rkanter/dev/mr2-pseudo-dist/dirs/yarn/log</value>
   </property>
   <property>
+    <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
+    <value>100</value>
+  </property>
+  <property>
       <name>yarn.log-aggregation-enable</name>
       <value>true</value>
   </property>
